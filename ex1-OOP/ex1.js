@@ -17,9 +17,9 @@ function main() {
     const Car2 = new Car("Mazda", "CX - 5", "Green", 111_000);
     const Car3 = new Car("Dacia", "BIGGSTER", "Blue", 20_000);
 
-    console.log(Car1);
-    console.log(Car2);
-    console.log(Car3);
+    console.log(Car1.getProperties());
+    console.log(Car2.getProperties());
+    console.log(Car3.getProperties());
 }
 
 main();
